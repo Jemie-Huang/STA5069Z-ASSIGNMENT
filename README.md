@@ -13,12 +13,13 @@ This study will utilize the dataset from Eurostat, which was collected in the ye
 
 ### Description of response variable
 The response variable is the discrimination that the respondent perceives, which in total consists of 9 types and they are as following:
-•	“Lack of language skills”
-•	“None”
-•	“No suitable job available"
-•	“Never sought work or never worked”
-•	“Other”
-•	“Discrimination due to foreign origin”
-•	“Lack of recognition of qualifications”
-•	“Citizenship or residence permit”
-•	“Language skills, qualifications, citizenship, foreign origin, job and other barriers”
++ “Lack of language skills”
++ “None”
++ “No suitable job available": mismatch between the skills of migrants and the availability of jobs
++ “Never sought work or never worked”: having no prior work experience
++ “Other”
++ “Discrimination due to foreign origin”
++ “Lack of recognition of qualifications”
++ “Citizenship or residence permit”
++ “Language skills, qualifications, citizenship, foreign origin, job and other barriers”
+
