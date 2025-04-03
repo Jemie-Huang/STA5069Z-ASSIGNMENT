@@ -7,5 +7,18 @@ The study by Giang Ho and Rima Turk-Ariss on the labour market integration of mi
 Therefore, this study aims to first examine the demographic factors influencing the discrimination perception among the labour force participants in Europe, focusing on the role of gender, age, educational attainment and country of birth. Specifically, the study will assess the predictive power of the demographic factors on the likelihood of perceiving discrimination, how perceptions of discrimination vary across different hosting countries and the key factors contributing to the variation, and whether certain groups such as highly skilled migrants are more likely to over-report or under-report their discrimination perception in order to provide further evidence to the integration paradox. By exploring these relationships, the objective of the study is to provide insight into the underlying factors contributing to the perceived discrimination and offer policy implications applicable to certain countries that can potentially help minimize the employment gap.
 
 
+## Data
 
+This study will utilize the dataset from Eurostat, which was collected in the year 2021 and included 29 countries including EU members and non-EU members such as Switzerland, Spain, Italy, and Austria through the European Union Labour Force Survey (EU LFS). The survey was conducted by randomly rotating samples from migrants aged between 15 and 74 about the type of discrimination they have perceived when seeking a job. The dataset gathers the number of migrants (measured in thousands of persons) who fall under different combinations of gender, age, country of birth, hosting country, educational attainment, and perception of types of discrimination experienced by the labour force. The dataset is restructured by separating the observations into individual levels. The dataset originally consisted of some observations with missing values in certain variables. As the sample size is relatively large, it has been determined that these observations will be excluded from the analysis, as missing values relate to individual demographic characteristics that cannot be inferred on the basis of available data. After removing the observations with missing values, there were 78534 thousand of observations and 27 countries remaining.
 
+### Description of response variable
+The response variable is the discrimination that the respondent perceives, which in total consists of 9 types and they are as following:
+•	“Lack of language skills”
+•	“None”
+•	“No suitable job available"
+•	“Never sought work or never worked”
+•	“Other”
+•	“Discrimination due to foreign origin”
+•	“Lack of recognition of qualifications”
+•	“Citizenship or residence permit”
+•	“Language skills, qualifications, citizenship, foreign origin, job and other barriers”
